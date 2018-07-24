@@ -1,0 +1,283 @@
+#par1
+{
+  font-size: 500%;
+  text-align: center;
+}
+
+header {
+    background-color: #00000;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+  }
+#picture {
+  position: absolute;
+  left: 20px;
+  top: 100px;}
+
+#info {
+  text-align: center;
+
+}
+#us {
+  border-radius: 50%;
+}
+#facebook{
+  position: absolute;
+  top: 2px;
+  right: 100px;
+
+}
+#twitter{
+  position: absolute;
+  top: 2.5px;
+  right: 60px;
+}
+#insta{
+  position: absolute;
+  top: 7px;
+  right: 25px;
+}
+
+ footer {
+   background-color:white;
+   text-align: left;
+   padding: 20px;
+ }
+
+ body, html {
+    height: 100%;
+    margin:0;
+
+}
+
+
+.tree{
+  top: 0px;
+  width:100%;
+  height:100%;
+
+}
+
+
+#cali{
+  position: absolute;
+  top: 346px;
+  left: 415px;
+  -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3.5s; /* Firefox < 16 */
+        -ms-animation: fadein 3.5s; /* Internet Explorer */
+         -o-animation: fadein 3.5s; /* Opera < 12.1 */
+            animation: fadein 3.5s;
+
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeinlater {
+    0% { opacity: 0; }
+    50%{opacity:0;}
+    100%   { opacity: 1; }
+}
+
+
+#college{
+  position: absolute;
+  top:350px;
+  left:550px;
+  -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3.5s; /* Firefox < 16 */
+        -ms-animation: fadein 3.5s; /* Internet Explorer */
+         -o-animation: fadein 3.5s; /* Opera < 12.1 */
+            animation: fadein 3.5s;
+
+}
+#connect{
+  position: absolute;
+  top:345px;
+  left:715px;
+  -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3.5s; /* Firefox < 16 */
+        -ms-animation: fadein 3.5s; /* Internet Explorer */
+         -o-animation: fadein 3.5s; /* Opera < 12.1 */
+            animation: fadein 3.5s;
+}
+
+#button1{
+  position:absolute;
+  top:500px;
+  left:650px;
+  border-color: white;
+  border-radius: 15%;
+  width: 100px;
+  height: 30px;
+  background-color: Transparent;
+  -webkit-animation: fadeinlater 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeinlater 5s; /* Firefox < 16 */
+        -ms-animation: fadeinlater 5s; /* Internet Explorer */
+         -o-animation: fadeinlater 5s; /* Opera < 12.1 */
+            animation: fadeinlater 5s;
+}
+
+
+.imgA1 {
+  z-index: 1;
+}
+.imgB1 {
+  z-index: 3;
+}
+
+
+
+
+}
+ body{
+   margin:0;
+ }
+ #pointer {
+cursor: pointer;
+
+ }
+
+#intro{
+   background-image: url('woodtable.jpg');
+   background-size: cover;
+   height:100vh;
+  width:100vw;
+
+}
+
+div.transbox {
+  position: absolute;
+  width:50%;
+  height: 50%;
+  left:350px;
+  top:980px;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 15px;
+
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+#button2{
+  position:absolute;
+  top:500px;
+  left:627px;
+  border-color: white;
+  border-radius: 15%;
+  border-width:3px;
+  width: 100px;
+  height: 30px;
+  background-color: Transparent;}
+
+  .navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  left:1px;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  left:1px;
+  top: 0;
+  width: 100%;
+  z-index: 901;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #00EEEE;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 150%;
+
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
+
+
+#table {
+width:100%;
+height:100vh;
+  background-color:#F0FFFF;
+}
+#googleMap {
+  width:90%;
+  height:85%;
+}
+#info {
+  background-image: url('bluesky.jpg');
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+
+#button3 {
+  border-color: black;
+  border-radius: 15%;
+  border-width:3px;
+  width: 150px;
+  height: 30px;
+  background-color: Transparent;}
+
+}
+
+{
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    height: 475px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
